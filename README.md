@@ -21,7 +21,7 @@ zhangxl.2015@tsinghua.org.cn (Xianglin Zhang, Shandong University)
 ### 1. preparing CpG positions for the genome
 Usage: `python building_cpg_index.py -i hg38.fa -o ./`
 * `i`,  The path to reference sequences (.fa);
-* `o`,  The path that you want to deposit the positions of CpG sites, files of each chromosome and whole-genome;
+* `o`,  The path that you want to deposit the positions of CpG sites, files of each chromosome and whole-genome;  
 Followed processing:    
 * `bgzip cpgpos_wholegenome.pos;`
 * `tabix -b 2 -e 2 cpgpos_wholegenome.pos.gz`
@@ -31,7 +31,7 @@ Usage: `python A1.bam2record.py -i *.bam -o tmp_post.txt -c cpgpos_wholegenome.p
 * `i`,  The path to bam file from Bismark;
 * `o`,  The path and file name that you want to deposit;
 * `c`,  CpG index that built in step 1;
-* `t`,  Trim reads (bp);
+* `t`,  Trim reads (bp);  
 Followed processing:     
 * `sort -k1,1 -k2,2n tmp_post.txt > tmp_post_sort.txt`
 * `bgzip tmp_post_sort.txt`
@@ -62,5 +62,5 @@ Usage: `python plotting_lollipop.py -i tmp_bed_MeMatrix.hdf5 -o tmp -b region.be
   
 * Output: plot in PDF file.  
 Each line could cotain multiple fragments which are not overlapped. Top panel shows distance(bp) between two adjacent CpG sites.  
-<img src="https://github.com/vhang072/MeHist/blob/main/pic/Lollipop_example.png" width="1750" height="600">
+<img src="https://github.com/vhang072/MeHist/blob/main/pic/Lollipop_example.png" width="1750" height="400">
 
