@@ -1,5 +1,5 @@
 # MeHist
-epiallele analysis for WGBS (whole genome bisulfite sequencing) data
+Epiallele analysis for WGBS (whole genome bisulfite sequencing) data
 
 # Installation
 * Modules of python are required:`pysam`, `numpy`, `multiprocessing`,`matplotlib`,`pandas`,`h5py`.
@@ -55,5 +55,5 @@ Usage: `python plotting_lollipop.py -i tmp_bed_MeMatrix.hdf5 -o tmp -b region.be
 * `b`,  Bed file that you want to draw lollipop;
 * `n`,  Prefix sample name of lollipop plot;
 Output: plot in PDF file. each line could cotain multiple fragments which are not overlapped.
-<img src="https://github.com/vhang072/MeHist/blob/main/pic/Lollipop_example.png" width="1250" height="600">
+<img src="https://github.com/vhang072/MeHist/blob/main/pic/Lollipop_example.png" width="1750" height="600">
 
