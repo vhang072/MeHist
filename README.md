@@ -3,7 +3,7 @@ Epiallele analysis for WGBS (whole genome bisulfite sequencing) data
 
 
 # Citation and Contact
-The paper has not been published. It will be updated as soon as it is published.
+The paper has not been published. It will be updated as soon as it is published.  
 zhangxl.2015@tsinghua.org.cn (Xianglin Zhang, Shandong University)
 
 # Usage
