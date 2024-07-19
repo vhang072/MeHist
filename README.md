@@ -55,5 +55,5 @@ Usage: `python plotting_lollipop.py -i tmp_bed_MeMatrix.hdf5 -o tmp -b region.be
 * `b`,  Bed file that you want to draw lollipop;
 * `n`,  Prefix sample name of lollipop plot;
 Output: plot in PDF file. each line could cotain multiple fragments which are not overlapped.
-* <img src="https://github.com/vhang072/MeConcord/blob/main/pics/lollipop plot_1.PNG" width="450" height="400">
+* <img src="https://github.com/vhang072/MeHist/blob/main/pic/Lollipop_example.png" width="450" height="300">
 
