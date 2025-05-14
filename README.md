@@ -3,7 +3,8 @@ Epiallele analysis for WGBS (whole genome bisulfite sequencing) data
 
 
 # Citation and Contact
-Xianglin Zhang<sup>†</sup>, Wei Zhang<sup>†</sup>, Jinyi Zhang, Xiuhong Lyu, Haoran Pan, Tianwei Jia, Ting Wang<sup>*</sup>, Xiaowo Wang<sup>*</sup>, Haiyang Guo<sup>*</sup> Simulation-Guided Pan-Cancer Analysis Identifies a Novel Regulator of CpG Island Hypermethylation Heterogeneity, Briefings in Bioinformatics (Accepted)
+Xianglin Zhang<sup>†</sup>, Wei Zhang<sup>†</sup>, Jinyi Zhang, Xiuhong Lyu, Haoran Pan, Tianwei Jia, Ting Wang*,Xiaowo Wang*, Haiyang Guo* Simulation-Guided Pan-Cancer Analysis Identifies a Novel Regulator of CpG Island Hypermethylation Heterogeneity, Briefings in Bioinformatics (Accepted)
+
 zhangxl.2015@tsinghua.org.cn (Xianglin Zhang, Shandong University)
 
 # Usage
